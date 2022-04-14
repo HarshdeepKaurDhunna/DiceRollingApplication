@@ -48,15 +48,5 @@ public class CustomAdapter extends BaseAdapter {
         return view;
     }
 
-    public void addContact(String contact, int images){
-        this.diceList.add(contact);
-        this.diceIconList.add(images);
-        notifyDataSetChanged();
-    }
 
-    public void removeContact(){
-        if(this.diceList.size() >0){
-            this.diceList.remove(this.diceList.size()-1);
-        }notifyDataSetChanged();
-    }
 }
