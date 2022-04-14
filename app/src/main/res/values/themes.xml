@@ -11,6 +11,25 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- Customize theme defaultStylr -->
+        <item name="android:textViewStyle">@style/defaultStyle</item>
+        <item name="materialButtonStyle">@style/materialButton</item>
+    </style>
+
+    <style name="defaultStyle">
+        <!-- importing colors from colors.xml -->
+        <item name="android:textColor">@color/cardview_dark_background</item>
+
+        <!-- importing dimensions from dimensions.xml -->
+        <item name="android:textSize">@dimen/buttonText</item>
+    </style>
+
+    <style name="materialButton" parent="Widget.MaterialComponents.Button">
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/voilet</item>
+        <item name="android:insetLeft">4dp</item>
+        <item name="android:insetRight">4dp</item>
+
     </style>
 </resources>
