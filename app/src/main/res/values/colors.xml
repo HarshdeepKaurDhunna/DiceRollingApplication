@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_pink">#F0CCE2</color>
     <color name="voilet">#5D1049</color>
+    <color name="orange">#F3902E</color>
+    <color name="orange_light">#E89D52</color>
+    <color name="orange_light2">#DDB790</color>
 </resources>
